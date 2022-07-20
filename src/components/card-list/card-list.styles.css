@@ -5,3 +5,21 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 20px;
 }
+
+@media (max-width: 600px) {
+  .card-list {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 840px) {
+  .card-list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 840px) and (max-width: 1130px) {
+  .card-list {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
